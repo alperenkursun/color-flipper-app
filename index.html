@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Color Flipper</title>
+</head>
+<body id="body">
+    <nav class="navbar navbar-expand-lg bg-white shadow">
+        <div id="container" class="container navbar-nav d-flex justify-content-between align-items-center">
+              <div id="left">
+                <div class="nav-item">
+                    <div class="nav-link active fs-3" aria-current="page" href="#">
+                        <span class="text-primary">C</span>
+                        <span class="text-secondary">O</span>
+                        <span class="text-success">L</span>
+                        <span class="text-danger">O</span>
+                        <span class="text-warning me-3">R</span>
+
+                        <span class="text-info">F</span>
+                        <span class="text-dark">L</span>
+                        <span class="text-body">I</span>
+                        <span class="text-muted">P</span>
+                        <span class="text-black">P</span>
+                        <span class="text-danger">E</span>
+                        <span class="text-primary">R</span>
+
+                    </div>
+                </div>
+              </div>
+              <div id="right" class="d-flex  fs-5">
+                <div class="nav-item">
+                    <button id="boost" class="nav-link bg-white border-white me-2">Boostrap</button>
+                  </div>
+                  <div class="nav-item">
+                    <button id="random" class="nav-link bg-white border-white">Random</button>
+                  </div>
+                </div>
+        </div>
+    </nav>
+
+    <div id="main" class="position-absolute top-50 start-50 translate-middle text-center">
+        <div id="main-bg" class="bg-dark text-white fs-2 p-3 rounded-pill">
+            Background Color: #FFFFFF
+        </div>
+        <button id="boostbtn" onclick="display()" class="bg-white border-white fs-5 p-2 mt-4">GET COLOR</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+#container{
+    width: 800px !important;
+}
+
+#right .nav-item .nav-link{
+    letter-spacing: 2px !important;
+}
